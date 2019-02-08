@@ -1,5 +1,8 @@
-package com.stubhub.simplelogin;
+package com.stubhub.simplelogin.service;
 
+import com.stubhub.simplelogin.domain.Session;
+import com.stubhub.simplelogin.domain.User;
+import com.stubhub.simplelogin.repository.UserRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,5 +1,6 @@
-package com.stubhub.simplelogin;
+package com.stubhub.simplelogin.repository;
 
+import com.stubhub.simplelogin.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,5 +1,8 @@
-package com.stubhub.simplelogin;
+package com.stubhub.simplelogin.controller;
 
+import com.stubhub.simplelogin.service.UserService;
+import com.stubhub.simplelogin.domain.Session;
+import com.stubhub.simplelogin.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

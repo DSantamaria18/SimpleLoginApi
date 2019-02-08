@@ -1,4 +1,4 @@
-package com.stubhub.simplelogin;
+package com.stubhub.simplelogin.domain;
 
 
 import javax.persistence.*;

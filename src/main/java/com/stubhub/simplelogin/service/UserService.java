@@ -1,5 +1,7 @@
-package com.stubhub.simplelogin;
+package com.stubhub.simplelogin.service;
 
+import com.stubhub.simplelogin.domain.Session;
+import com.stubhub.simplelogin.domain.User;
 import org.springframework.stereotype.Service;
 
 public interface UserService {
