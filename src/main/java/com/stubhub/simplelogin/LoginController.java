@@ -20,7 +20,7 @@ public class LoginController {
         if(authOk){
             return userService.getUserByUsername(username);
         } else {
-            throw new Exception("Login incorrect!!!");
+            throw new Exception("Access denied!!!");
         }
     }
 
